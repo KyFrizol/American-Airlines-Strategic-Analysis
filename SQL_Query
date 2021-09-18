@@ -20,3 +20,5 @@ Select customer_type, class, type_of_travel, gender, ease_of_online_booking
 From dbo.train
 
 -- Query provides insight into how the booking experience differs according to specific demographic insights. 
+
+
