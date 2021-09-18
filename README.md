@@ -1,4 +1,9 @@
 # American-Airlines-Strategic-Analysis (Tableau Dashboard)
+
+-- Query provides insight into how the booking experience differs according to specific demographic insights. 
+![Domestic Airline Passenger Experience](https://user-images.githubusercontent.com/90951012/133878459-dc020e8c-dc34-4510-ac0f-ff047d401591.png)
+
+
  --Project: MBA Thesis_1: American Airlines Strategic Analysis
 --The goal of this project is to obtain financial, organizational, and industry-related information that is pertinent to consulting on AA's strategy considering Covid-19s drastic impact.
 --Work was organized and composed in a team at Washington State University Carson College of Business MBA Program in May 2021. 
@@ -19,6 +24,3 @@ From dbo.train
 
 Select customer_type, class, type_of_travel, gender, ease_of_online_booking 
 From dbo.train
-
--- Query provides insight into how the booking experience differs according to specific demographic insights. 
-![Domestic Airline Passenger Experience](https://user-images.githubusercontent.com/90951012/133878459-dc020e8c-dc34-4510-ac0f-ff047d401591.png)
