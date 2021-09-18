@@ -1,0 +1,22 @@
+--Project: MBA Thesis_1: American Airlines Strategic Analysis
+--The goal of this project is to obtain financial, organizational, and industry-related information that is pertinent to consulting on AA's strategy considering Covid-19s drastic impact.
+--Work was organized and composed in a team at Washington State University Carson College of Business MBA Program in May 2021. 
+
+Select *
+From Airline_data..train
+order by 3,4
+-- I am organizing the Airline_data database by the 3rd and 4th columns 'Id' and 'Gender' for use in our specific project. 
+
+Select id, gender, customer_type, age, type_of_travel, class, satisfaction 
+FROM dbo.train
+-- Selecting specific columns which reflect the overall 'satisfaction' of airline customers based on key demographic data. 
+
+Select type_of_travel, class, cleanliness, food_and_drink, on_board_service, leg_room_service, inflight_entertainment
+From dbo.train
+
+-- This query specifically displays the Average Service Quality by Type of Travel. This will be useful later in visualizing on Tableau given the unique experiences of each guest.
+
+Select customer_type, class, type_of_travel, gender, ease_of_online_booking 
+From dbo.train
+
+-- Query provides insight into how the booking experience differs according to specific demographic insights. 
